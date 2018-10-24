@@ -1,0 +1,24 @@
+#test{
+    margin: 50px;
+    fill: red;/*塗りつぶし*/
+    stroke: blue;/*線色*/
+    stroke-dasharray: 24;/*点線の周期*/
+    stroke-dashoffset: 12;/*点線の開始位置をずらす*/
+    transition-duration: 200ms;
+}
+
+#test:hover{
+    fill: black;
+}
+
+
+path {
+    fill: #5fd35f;
+    stroke: #165016;
+    stroke-width: 1;
+    transition-duration: 10ms;
+    cursor: pointer;
+ }
+ path:hover {
+    fill: #2ca02c;
+  }
